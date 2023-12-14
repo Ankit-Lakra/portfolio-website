@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web.css">
+    <title>ANKIT LAKRA - Portfolio</title>
+</head>
+<body>
+   
+
+
+    <header>
+        <div class="container">
+            <h1>ANKIT LAKRA</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/ankit-lakra-135293263/" target="_blank"><img src="https://static-00.iconduck.com/assets.00/linkedin-icon-512x512-vkm0drb1.png" alt="LinkedIn"></a>
+                <a href="https://www.facebook.com/profile.php?id=100022667511451" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Facebook_Logo_2023.png/900px-Facebook_Logo_2023.png" alt="Facebook"></a>
+                <a href="https://github.com" target="_blank"><img src="https://www.logotypes101.com/logos/612/3BF36CF1857F8854E2C416AC23E2397F/github_logo.png" alt="GitHub"></a>
+                <a href="https://www.instagram.com/anks_anonymous?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/900px-Instagram_logo_2022.svg.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <section id="about" class="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my portfolio! I am a passionate web developer with a focus on creating responsive and user-friendly websites.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project" onclick="openModal('Project 1', 'Description of Project 1.')">
+                <img src="https://1.bp.blogspot.com/-ec3XZOkwVQU/XxEnvHfIElI/AAAAAAAAAws/ShoAyvFiAngQVxCkj80ywNsRD5-e5sNZwCLcBGAsYHQ/s1600/Responsive%2BContact%2Bus%2BForm%2Busing%2BHTML%2B%2526%2BCSS.webp" alt="Project 1">
+                <h3>Project 1</h3>
+            </div>
+            <div class="project" onclick="openModal('Project 2', 'Description of Project 2.')">
+                <img src="https://5.imimg.com/data5/FR/AI/MY-18248335/e-commerce-website-500x500.png" alt="Project 2">
+                <h3>Project 2</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>ankit.lkra47@gmail.com</p>
+            
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 ANKIT LAKRA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+    <div id="projectModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modalContent"></div>
+    </div>
+
+    
+</body>
+</html>
